@@ -1,16 +1,28 @@
+
 html,body{
-    width:100%;
-    margin:0;
-    padding:0;
-   
+  width:100%;
+  margin:0;
+  padding:0;
+ 
+
+}
+
+.background_image{
+  background-image: url('admin-dusk-1280x800.jpg');
+  height: 100vh;
+  opacity: 0.6;
+}
+
+.footer{
+  background-color: aliceblue;
+}
+
+.mar{
+  background-color: aliceblue;
+  backface-visibility: 0.6;
+  padding: 5rem;
+  border-radius: 2rem;
+  width:90% !important;
+  margin:auto
   
-  }
-
-  .background_image{
-    background-image: url('admin-dusk-1280x800.jpg');
-    height: 100vh
-  }
-
-  .footer{
-    background-color: aliceblue;
-  }
+}
